@@ -7,13 +7,9 @@ Created on Thu Feb 20 14:55:02 2020
 
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
-import time
 import math
 
 import auxiliar as aux
-from ipywidgets import widgets, interact, interactive, FloatSlider, IntSlider
-from scipy.spatial.distance import euclidean as dist
 
 # If you want to open a video, just change this path
 #cap = cv2.VideoCapture('hall_box_battery.mp4')
